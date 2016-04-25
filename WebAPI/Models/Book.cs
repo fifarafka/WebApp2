@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApp.Models
+namespace WebAPI.Models
 {
     public class Book
     {

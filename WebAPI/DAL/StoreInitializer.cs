@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using WebApp.Models;
+using WebAPI.Models;
 
-namespace WebApp.DAL
+namespace WebAPI.DAL
 {
-    public class StoreInitializer : DropCreateDatabaseIfModelChanges<StoreContext>
+    public class StoreInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<StoreContext>
     {
         protected override void Seed(StoreContext context)
         {

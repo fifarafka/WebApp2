@@ -5,14 +5,14 @@ namespace WebAPI.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<WebApp.DAL.StoreContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<WebAPI.DAL.StoreContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(WebApp.DAL.StoreContext context)
+        protected override void Seed(WebAPI.DAL.StoreContext context)
         {
             //  This method will be called after migrating to the latest version.
 

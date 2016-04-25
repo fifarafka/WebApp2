@@ -213,6 +213,10 @@
     <Compile Include="Migrations\201604252136599_AddBookPageCount.Designer.cs">
       <DependentUpon>201604252136599_AddBookPageCount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604252308451_initialcreate.cs" />
+    <Compile Include="Migrations\201604252308451_initialcreate.Designer.cs">
+      <DependentUpon>201604252308451_initialcreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
@@ -276,6 +280,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201604252136599_AddBookPageCount.resx">
       <DependentUpon>201604252136599_AddBookPageCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252308451_initialcreate.resx">
+      <DependentUpon>201604252308451_initialcreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

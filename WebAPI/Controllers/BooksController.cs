@@ -8,10 +8,10 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using WebApp.DAL;
-using WebApp.Models;
+using WebAPI.DAL;
+using WebAPI.Models;
 
-namespace WebApp.Controllers
+namespace WebAPI.Controllers
 {
     public class BooksController : ApiController
     {
