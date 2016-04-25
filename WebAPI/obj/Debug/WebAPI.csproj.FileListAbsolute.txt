@@ -65,3 +65,5 @@
 \\psf\Home\Documents\Visual Studio 2015\Projects\Zadania7\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\Visual Studio 2015\Projects\Zadania7\WebAPI\obj\Debug\WebAPI.dll
 \\psf\Home\Documents\Visual Studio 2015\Projects\Zadania7\WebAPI\obj\Debug\WebAPI.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\Zadania7\WebAPI\obj\Debug\WebAPI.Migrations.AddBookPageCount.resources
+\\psf\Home\Documents\Visual Studio 2015\Projects\Zadania7\WebAPI\obj\Debug\WebAPI.csproj.GenerateResource.Cache
